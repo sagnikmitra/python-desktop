@@ -1,3 +1,4 @@
+# Here i am taking a string and converting into a list and then slicing them and ordering them / keeping unordered and then i am printing those many list in a convereted string format in each lines
 def merge_the_tools(string, k):
     list1 = []
     for i in string:
