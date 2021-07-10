@@ -1,0 +1,1 @@
+    # splitList = [[] for i in range(splitLen)]
