@@ -22,4 +22,4 @@ for i in range(2, sheet.max_row+1):
         if sheet.cell(row=i, column=6).value.lower() == reg.lower():
             if sheet.cell(row=i, column=2).value.lower() == branch.lower():
                 strPdf = sheet.cell(row=i, column=5).value.lower()+'-2.pdf'
-                st.write(show_pdf(strPdf))
+                show_pdf(strPdf)
